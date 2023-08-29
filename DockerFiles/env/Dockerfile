@@ -1,4 +1,4 @@
 FROM almalinux
-RUN yum install update -y
+RUN apt-get update
 ENV AUTHOR="RAVI" \
     COURSE="DOCKER" 
